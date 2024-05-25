@@ -1,15 +1,14 @@
-import React from 'react'
+// import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 
-function MyApp() {
-    return(
-        <div>
-            <h1>Custom app ? </h1>
-        </div>
-    )
-
-}
+// function MyApp() {
+//     return(
+//         <div>
+//             <h1>Custom app ? </h1>
+//         </div>
+//     )
+// }
 // const ReactElement = {
 //     type: "a",
 //     props: {
@@ -25,15 +24,15 @@ function MyApp() {
 //     </a>
 //   )
 
-    const anotheruser="react";
+    // const anotheruser="react";
 
-  const ReactElement= React.createElement(
-    'a',
-    {href:"https://google.com",target:"_blank"},
-    'click me to visit google',
-    anotheruser
-  )
+//   const ReactElement= React.createElement(
+//     'a',
+//     {href:"https://google.com",target:"_blank"},
+//     'click me to visit google',
+//     anotheruser
+//   )
 ReactDOM.createRoot(document.getElementById('root')).render(
-    ReactElement
-    // <App/>
+    // ReactElement
+    <App/>
 )
