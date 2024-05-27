@@ -7,7 +7,13 @@ function App() {
       // counter = counter + 1;
       console.log(`Value added ${counter} `, Math.random());
       if (counter<20) {
-        setCounter(counter + 1);
+        // react send data in a batch so countr will be updated only one time
+        setCounter((preCounter)=> preCounter+1);// it call back to update the value
+        setCounter((preCounter)=> preCounter+1);
+        setCounter((preCounter)=> preCounter+1);
+        setCounter((preCounter)=> preCounter+1);
+        setCounter((preCounter)=> preCounter+1);
+
       }
     };
   const removeValue = () => {
