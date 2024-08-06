@@ -70,7 +70,7 @@ export default function Header() {
                   Github
                 </NavLink>
               </li>
-            </ul>
+            </ul> 
           </div>
         </div>
       </nav>
